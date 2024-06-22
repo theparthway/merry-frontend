@@ -12,7 +12,9 @@ export default {
       'black': '#0E0E0E',
       'white': '#F2F2F2',
       'gradient1': '#052B4D',
-      'gradient2': '#09141E'
+      'gradient2': '#09141E',
+      'button1': '#F9F9F9',
+      'buttontext': '#606060',
     }
   },
   plugins: [],

@@ -5,33 +5,33 @@ const Description: React.FC = () => {
   // Information block data
   const informationBlocks = [
     {
-      title: "Block 1 Title",
-      description: "Description of block 1.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
     {
-      title: "Block 2 Title",
-      description: "Description of block 2.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
     {
-      title: "Block 3 Title",
-      description: "Description of block 3.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
     {
-      title: "Block 4 Title",
-      description: "Description of block 4.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
     {
-      title: "Block 5 Title",
-      description: "Description of block 5.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
     {
-      title: "Block 6 Title",
-      description: "Description of block 6.",
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
   ];
@@ -44,9 +44,9 @@ const Description: React.FC = () => {
         <CodeBlock text={'Install'} code={`curl https://getmerry.vulpem.com | bash`} />
       </div>
 
-      <div className="grid grid-cols-2 gap-6 max-w-full mx-auto mt-8">
+      <div className="grid grid-cols-2 gap-6 max-w-1/2 mx-auto mt-8">
         {informationBlocks.map((block, index) => (
-          <div key={index} className="flex items-center p-4 px-24 bg-gray-100 rounded-lg">
+          <div key={index} className="flex items-center p-4 px-24 rounded-lg">
             <div className="mr-4">{block.icon}</div>
             <div>
               <h3 className="text-lg font-semibold">{block.title}</h3>
