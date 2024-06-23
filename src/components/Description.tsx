@@ -8,14 +8,38 @@ const Description: React.FC = () => {
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
       icon: "ℹ️", // Replace with actual icon or emoji
     },
-    // Add the other information blocks here
+    {
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
+      icon: "ℹ️", // Replace with actual icon or emoji
+    },
+    {
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
+      icon: "ℹ️", // Replace with actual icon or emoji
+    },
+    {
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
+      icon: "ℹ️", // Replace with actual icon or emoji
+    },
+    {
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
+      icon: "ℹ️", // Replace with actual icon or emoji
+    },
+    {
+      title: "Bitcoin",
+      description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
+      icon: "ℹ️", // Replace with actual icon or emoji
+    },
   ];
 
   return (
-    <section className="flex flex-col justify-center h-screen bg-gradient-to-b from-gradient1 to-gradient2">
+    <section className={`flex flex-col justify-center h-screen bg-gradient-to-b from-lightgradient1 to-lightgradient2 dark:from-gradient1 dark:to-gradient2`}>
       <div className="flex flex-col items-center text-center p-4 md:p-8 max-w-full">
-        <h2 className="text-2xl md:text-4xl font-bold mb-4">One Click Bitcoin</h2>
-        <p className="text-lg md:text-xl mb-8">Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum. You can use to run tests locally and execute API calls</p>
+        <h2 className="text-2xl text-darkblue dark:text-white md:text-4xl font-bold mb-4">One Click Bitcoin</h2>
+        <p className="text-lg text-darkblue dark:text-white md:text-xl mb-8">Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum. You can use to run tests locally and execute API calls</p>
         <CodeBlock text={'Install'} code={`curl https://getmerry.vulpem.com | bash`} />
       </div>
 
