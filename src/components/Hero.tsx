@@ -22,19 +22,16 @@ const Hero: React.FC = () => {
       <div className={`absolute inset-0 opacity-[${isDarkMode ? "34%" : "60%"} bg-cover bg-center`} style={{ backgroundImage: `url(${isDarkMode ? heroBg : heroBgLight})` }}></div>
       <div className="relative z-10 flex flex-col items-center justify-between h-full p-8 md:flex-row md:pl-24">
 
-        {/* Top Left Logo */}
         <div className="absolute top-4 left-4 md:top-12 md:left-24">
           <img src={logoImage} alt="Logo" className="w-8 h-8 md:w-12 md:h-12" />
         </div>
 
-        {/* Top Right Dark Mode Button */}
         <div className="absolute top-4 right-4 md:top-12 md:right-16">
           <button onClick={toggleDarkMode}>
             <img src={isDarkMode ? darkModeIcon : lightModeIcon} alt="Toggle Dark Mode" className="w-8 h-8 md:w-16 md:h-16" />
           </button>
         </div>
 
-        {/* Hero Content */}
         <div className="text-white max-w-lg mb-8 md:mb-0">
           <div className="flex flex-col gap-8 mb-4">
             <img src={isDarkMode ? heroText : heroTextLight} alt="Merry Bitcoin" className='w-full md:w-3/4' />
@@ -43,7 +40,6 @@ const Hero: React.FC = () => {
           <button className="px-12 py-2 md:px-24 bg-darkblue text-white font-bold rounded-full">Install</button>
         </div>
 
-        {/* Hero Image */}
         <div className="w-full md:w-1/2 absolute bottom-0 right-0">
           <img src={heroImage} alt="Hero" className="w-3/4 md:w-full object-contain" />
         </div>

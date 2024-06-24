@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col text-white min-h-screen">
+    <div className="flex flex-col font-sans text-white min-h-screen">
         <Hero />
         <Description />
         <Commands />
