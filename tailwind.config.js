@@ -17,7 +17,8 @@ export default {
       'gradient2': '#09141E',
       'lightgradient1': '#6EBDF5',
       'lightgradient2': '#09141E',
-      'button1': '#F9F9F9',
+      'buttongradient1': '#F9F9F9',
+      'buttongradient2': '#9E9E9E',
       'buttontext': '#606060',
     },
     fontFamily: {
