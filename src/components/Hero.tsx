@@ -37,8 +37,8 @@ const Hero: React.FC = () => {
           <div className="flex flex-col gap-8 mb-4">
             <img src={isDarkMode ? heroText : heroTextLight} alt="Merry Bitcoin" className='w-full md:w-3/4' />
           </div>
-          <p className={`text-lg text-darkblue dark:text-white md:text-2xl my-8`}>An adventurous docker box for special Bitcoin and Liquid sailings.</p>
-          <button className="px-12 py-2 md:px-24 bg-darkblue text-white font-bold rounded-full">Install</button>
+          <p className={`text-4xl font-bold text-darkblue dark:text-white md:text-2xl my-8`}>An adventurous docker box for special Bitcoin and Liquid sailings.</p>
+          <a href="#description" className="px-12 py-2 md:px-24 bg-darkblue text-white text-xl font-bold rounded-full">Install</a>
         </div>
 
         <div className="lg:w-1/2 md:w-1/4 sm:w-1/2 absolute -bottom-1 right-0">
