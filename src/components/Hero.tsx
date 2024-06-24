@@ -11,7 +11,7 @@ import heroText from '../assets/hero-text.svg';
 import heroTextLight from '../assets/hero-text-light.svg';
 
 const Hero: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -19,8 +19,8 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <div className={`relative w-full h-screen bg-overlay bg-cover bg-center`}>
-      <div className={`absolute inset-0 opacity-[60%] dark:opacity-[34%] bg-cover bg-center`} style={{ backgroundImage: `url(${isDarkMode ? heroBg : heroBgLight})` }}></div>
+    <div className={`relative w-full h-screen dark:bg-overlay bg-cover bg-center`}>
+      <div className={`absolute inset-0 dark:opacity-[34%] bg-cover bg-center`} style={{ backgroundImage: `url(${isDarkMode ? heroBg : heroBgLight})` }}></div>
       <div className="relative z-10 flex flex-col items-center justify-between h-full p-8 md:flex-row md:pl-32">
 
         <div className="absolute top-4 left-4 md:top-12 md:left-32">
