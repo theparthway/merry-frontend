@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import heroImageLight from '../assets/hero-img-light.svg';
 import heroImage from '../assets/hero-img-dark.svg';
-import logoImage from '../assets/logo.svg'; // Your logo image
+import logoImage from '../assets/logo.svg';
 import heroBg from '../assets/hero-bg.svg';
 import heroBgLight from '../assets/light-hero-bg.svg';
 import darkModeIcon from '../assets/dark-mode-icon.svg';
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
 
   return (
     <div className={`relative w-full h-screen bg-overlay bg-cover bg-center`}>
-      <div className={`absolute inset-0 opacity-[${isDarkMode ? "34%" : "60%"} bg-cover bg-center`} style={{ backgroundImage: `url(${isDarkMode ? heroBg : heroBgLight})` }}></div>
+      <div className={`absolute inset-0 opacity-[60%] dark:opacity-[34%] bg-cover bg-center`} style={{ backgroundImage: `url(${isDarkMode ? heroBg : heroBgLight})` }}></div>
       <div className="relative z-10 flex flex-col items-center justify-between h-full p-8 md:flex-row md:pl-32">
 
         <div className="absolute top-4 left-4 md:top-12 md:left-32">

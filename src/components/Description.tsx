@@ -6,32 +6,32 @@ const Description: React.FC = () => {
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
     {
       title: "Bitcoin",
       description: "Quickly fire up a personal Bitcoin blockchain along with Liquid and Electrum.",
-      icon: "ℹ️", // Replace with actual icon or emoji
+      icon: "ℹ️",
     },
   ];
 
